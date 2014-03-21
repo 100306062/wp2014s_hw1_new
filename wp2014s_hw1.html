@@ -1,5 +1,9 @@
 <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW" lang="zh-TW">
+<!--
+  Created using jsbin.com
+  Source can be edited via http://jsbin.com/jopevibu/1/edit
+-->
 
 <head>
 
@@ -16,25 +20,124 @@
 <meta name="copyright" content="Copyright @ 2001-2012" />
 <meta name="generator" content="XOOPS" />
 
+
+<style id="jsbin-css">
+.TopLink{
+  direction:rtl;
+  }
+
+.info-page{
+  font-family:"微軟正黑體", "Microsoft JhengHei";
+  position:relative;
+  z-index:-100;
+  width:800px;
+  padding: 3em;
+  background:
+    url(http://subtlepatterns.com/patterns/skulls.png)
+    repeat;
+  border-radius:1em;
+  box-shadow: rgb(189, 189, 189) 0px 1px 5px 0px;  
+  
+}
+
+.div_intro h1{
+  border-bottom:1px solid;
+  }
+
+
+#xo-headerlogo{
+  padding: 4em:
+}
+
+
+li{
+  list-style-type:none;
+  }
+
+li:nth-child(odd){
+background-color:rgba(255,255,255,0.5);
+}
+
+#xo-content-caption{
+  border-bottom:1px solid;
+  }
+
+
+
+.menuMain{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.menuMain:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.menuMain:active {
+	position:relative;
+	top:1px;
+}
+</style>
 </head>
 
+  
 <body id="tinyd3" class="zh-TW">
-	<div id="xo-wrapper">
+  <article class="info-page paper-shadow" align="middle">
+
+  <div id="xo-wrapper">
   		<div id="xo-bgstatic"></div>
   		<div id="xo-canvas"> 
     	<div id="xo-header"> 
       
-      	<div class="TopLink" align="right" style="width:980px;"><a href="http://www.nccu.edu.tw/">政治大學</a> <a href="http://osa.nccu.edu.tw/en/">English</a> <a href="http://osa.nccu.edu.tw/ch/">舊版網站</a> </div>
+      	<div class="TopLink" align="middle" style="width:980px;"><a href="http://www.nccu.edu.tw/">政治大學</a> <a href="http://osa.nccu.edu.tw/en/">English</a>  </div>
       	<div id="xo-banner" class="tinyd3">
-        	<div id="xo-headerlogo"><a href="http://osa.nccu.edu.tw/" title="國立政治大學 學務處 - NCCU Office of Student Affairs"><img src="http://osa.nccu.edu.tw/themes/simple-kris/img/logo.png" alt="國立政治大學 學務處" /></a>
+        	<div id="xo-headerlogo"align="middle"><a href="http://osa.nccu.edu.tw/" title="國立政治大學 學務處 - NCCU Office of Student Affairs"><img src="http://osa.nccu.edu.tw/themes/simple-kris/img/logo.png" alt="國立政治大學 學務處" /></a>
             </div>
       	</div>
       
       <div id="xo-content">
           <div class="div_intro">
+            <div class="social-buttons" id="following-box">
+        <a class="btn-facebook btn btn-primary" href="#"><i class="fa fa-facebook-square"></i> 分享 </a>
+        <a class="btn-follow-recipe btn btn-danger" href="#"><i class="fa fa-gittip"></i>收藏</a>
+      </div>
             <h1>單位簡介</h1>
             以<strong><em>輔導學生社團發展</em></strong>為主，期使學生透過研習、討論、競賽、成果發表、出版刊物、校際交流等活動，充實休閒生活、開拓人生視野，也經由社團自治培養學生管理能力與合作精神。此外並舉辦多樣化的全校性藝能競賽，藉以激發學生潛力，培育優秀人才。為使本校學生在學業、品德上受到適切的協助，學務處亦積極推動<strong><em>服務學習</em></strong>。</div>
+        
       
+        
+        
       <div id="xo-globalnav">
         <ul>
         	
@@ -88,7 +191,7 @@
     
     <div id="xo-canvas-content"   class="leftcolumn-layout tinyd3">
       <div id="xo-canvas-columns">
-        <div id="xo-content-caption"><h3>關於我們 </h3></div>
+        <div id="xo-content-caption"><h1>關於我們 </h1></div>
         
         <div  id="xo-canvas-leftcolumn" class="xo-blockszone  xo-canvas-column">
           <div id="xo-block-tinyd3-21" class="xo-block tinyd3">
@@ -180,5 +283,9 @@
 <!--{xo-logger-output}-->
 </div>
 <!-- End xo-wrapper -->
+</article>  
+<script>
+
+</script>
 </body>
 </html>
